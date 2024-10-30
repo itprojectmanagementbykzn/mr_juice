@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learnease/main.dart';
 
 import 'model.dart';
 
@@ -20,39 +21,38 @@ class _DetailPageState extends State<DetailPage> {
       appBar: AppBar(),
       body: Column(
         children: [
-          Padding(
-            padding: EdgeInsets.only(top: size.height / 9),
-            child: Hero(
-                tag: widget.tagImage,
-                child: Center(
-                    child: Image.asset(
-                      widget.iceCream.image,
-                      height: size.height / 3,
-                    ))),
-          ),
-          SizedBox(
-            height: 30,
+          Hero(
+              tag: widget.tagImage,
+              child: Center(
+                  child: Image.asset(
+                    widget.iceCream.image,
+                    height: size.height / 3,
+                  ))),
+          const SizedBox(
+            height: 20,
           ),
           Text(
             widget.iceCream.name,
             textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+            style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold,
+            color: kPrimaryColor),
           ),
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
           Text(
             widget.iceCream.price,
             textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 25),
+            style: const TextStyle(fontSize: 25,
+            color: Colors.red),
           ),
-          SizedBox(
-            height: 30,
-          ),
-          Text(
-            widget.iceCream.desc,
-            textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 15),
+          Padding(
+            padding: const EdgeInsets.all(25),
+            child: Text(
+              widget.iceCream.desc,
+              textAlign: TextAlign.center,
+              style: const TextStyle(fontSize: 15),
+            ),
           ),
         ],
       ),

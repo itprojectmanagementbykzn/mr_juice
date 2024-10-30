@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'detail_page.dart';
+import 'main.dart';
 import 'model.dart';
 const _duration = Duration(milliseconds: 500);
 
@@ -35,10 +36,6 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.white,
-        elevation: 0,
-      ),
       body: Stack(
         children: [
           Positioned(
@@ -46,7 +43,7 @@ class _HomePageState extends State<HomePage> {
               height: size.height / 10,
               left: 20,
               right: 20,
-              child: DecoratedBox(
+              child: const DecoratedBox(
                 decoration: BoxDecoration(shape: BoxShape.circle, boxShadow: [
                   BoxShadow(
                       color: Colors.black,
@@ -137,6 +134,7 @@ class _HomePageState extends State<HomePage> {
                                     listIceCream[index].name,
                                     textAlign: TextAlign.center,
                                     style: TextStyle(
+                                      color: kPrimaryColor,
                                         fontSize: 30, fontWeight: FontWeight.bold),
                                   )));
                         }),
@@ -145,7 +143,7 @@ class _HomePageState extends State<HomePage> {
                     duration: _duration,
                     child: Text(
                       listIceCream[currentPage.toInt().clamp(0, listIceCream.length - 1)].price,
-                      style: TextStyle(fontSize: 30),
+                      style: TextStyle(fontSize: 30, color: Colors.red),
                     ),
                   )
 

@@ -21,15 +21,15 @@
     },
     {
       "name": "archive",
-      "rootUri": "file:///Users/mr.zarnibwar/.pub-cache/hosted/pub.dev/archive-3.4.9",
+      "rootUri": "file:///Users/mr.zarnibwar/.pub-cache/hosted/pub.dev/archive-3.6.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "args",
-      "rootUri": "file:///Users/mr.zarnibwar/.pub-cache/hosted/pub.dev/args-2.4.2",
+      "rootUri": "file:///Users/mr.zarnibwar/.pub-cache/hosted/pub.dev/args-2.6.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.3"
     },
     {
       "name": "async",
@@ -159,9 +159,9 @@
     },
     {
       "name": "cli_util",
-      "rootUri": "file:///Users/mr.zarnibwar/.pub-cache/hosted/pub.dev/cli_util-0.3.5",
+      "rootUri": "file:///Users/mr.zarnibwar/.pub-cache/hosted/pub.dev/cli_util-0.4.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.4"
     },
     {
       "name": "clock",
@@ -321,9 +321,9 @@
     },
     {
       "name": "flutter_launcher_icons",
-      "rootUri": "file:///Users/mr.zarnibwar/.pub-cache/hosted/pub.dev/flutter_launcher_icons-0.11.0",
+      "rootUri": "file:///Users/mr.zarnibwar/.pub-cache/hosted/pub.dev/flutter_launcher_icons-0.14.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "flutter_lints",
@@ -488,6 +488,12 @@
       "languageVersion": "2.14"
     },
     {
+      "name": "get",
+      "rootUri": "file:///Users/mr.zarnibwar/.pub-cache/hosted/pub.dev/get-4.6.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
       "name": "glob",
       "rootUri": "file:///Users/mr.zarnibwar/.pub-cache/hosted/pub.dev/glob-2.1.2",
       "packageUri": "lib/",
@@ -554,8 +560,14 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "iconsax",
+      "rootUri": "file:///Users/mr.zarnibwar/.pub-cache/hosted/pub.dev/iconsax-0.0.8",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "image",
-      "rootUri": "file:///Users/mr.zarnibwar/.pub-cache/hosted/pub.dev/image-3.3.0",
+      "rootUri": "file:///Users/mr.zarnibwar/.pub-cache/hosted/pub.dev/image-4.3.0",
       "packageUri": "lib/",
       "languageVersion": "2.15"
     },
@@ -627,15 +639,15 @@
     },
     {
       "name": "json_annotation",
-      "rootUri": "file:///Users/mr.zarnibwar/.pub-cache/hosted/pub.dev/json_annotation-4.8.1",
+      "rootUri": "file:///Users/mr.zarnibwar/.pub-cache/hosted/pub.dev/json_annotation-4.9.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.0"
     },
     {
       "name": "json_serializable",
-      "rootUri": "file:///Users/mr.zarnibwar/.pub-cache/hosted/pub.dev/json_serializable-6.6.2",
+      "rootUri": "file:///Users/mr.zarnibwar/.pub-cache/hosted/pub.dev/json_serializable-6.8.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.0"
     },
     {
       "name": "just_audio",
@@ -834,12 +846,6 @@
       "rootUri": "file:///Users/mr.zarnibwar/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.6",
       "packageUri": "lib/",
       "languageVersion": "2.19"
-    },
-    {
-      "name": "pointycastle",
-      "rootUri": "file:///Users/mr.zarnibwar/.pub-cache/hosted/pub.dev/pointycastle-3.7.3",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
     },
     {
       "name": "pool",
@@ -1226,7 +1232,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2024-10-30T09:16:28.532917Z",
+  "generated": "2024-10-30T13:39:25.558014Z",
   "generator": "pub",
   "generatorVersion": "3.5.3",
   "flutterRoot": "file:///opt/homebrew/Caskroom/flutter/3.24.3/flutter",

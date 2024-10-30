@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'Bottom_Nav_Bar.dart';
 
-import 'home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,8 +19,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomePage(),
+      home: const NavigationMenu(),
     );
   }
 }
 
+Color kPrimaryColor = const Color(0xFF385534);
