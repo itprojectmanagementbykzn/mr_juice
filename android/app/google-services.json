@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "533116071468",
+    "project_id": "learning-by-kzn",
+    "storage_bucket": "learning-by-kzn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533116071468:android:c5f94e56a1f176554f6b89",
+        "android_client_info": {
+          "package_name": "com.kzn.mmlearning"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFmge2LG8go21LrHz9HEKPF9XHMXcZDbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
